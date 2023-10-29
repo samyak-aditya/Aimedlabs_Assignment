@@ -131,16 +131,6 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-const RegisterLink = styled.p`
-  text-align: center;
-  margin-top: 20px;
-  cursor: pointer;
-  a {
-    font-weight: bold;
-    color: orange;
-    text-decoration: none;
-  };
-`;
 
 const Login = () => {
   return (
@@ -179,14 +169,6 @@ const Login = () => {
   );
 };
 
-const Register = () => {
-  // Add your Register component content here
-  return null;
-};
 
-const ChangePassword = () => {
-  // Add your "Change Password" component content here
-  return null;
-};
 
 export default Login;
